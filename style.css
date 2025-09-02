@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  background-color: #a0b700;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.screen {
+  padding: 100px 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  padding: 15px 30px;
+  margin-top: 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#predictBtn {
+  background-color: #d54b4b;
+  color: white;
+}
+
+#nextBtn {
+  background-color: #6d0000;
+  color: white;
+}
+
+.circle {
+  background-color: black;
+  color: white;
+  font-size: 36px;
+  width: 100px;
+  height: 100px;
+  margin: 30px auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
